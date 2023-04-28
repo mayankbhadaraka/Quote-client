@@ -7,7 +7,7 @@ import { BrowserRouter } from 'react-router-dom';
 import {ApolloClient,InMemoryCache,ApolloProvider,useQuery,gql } from '@apollo/client';
 
 const client=new ApolloClient({
-  uri:"http://localhost:4000/",
+  uri:"https://quote-server-kjhn.onrender.com",
   cache:new InMemoryCache(),
   // headers:{
   //   authorization:sessionStorage.getItem('token') || ""
